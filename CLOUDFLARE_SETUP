@@ -1,0 +1,10 @@
+Working with cloudfare workers
+
+setting up a cloudflare workers account cli:
+
+1-) sudo npm install -g @cloudflare/wrangler
+2-) wrangler login
+3-) yarn add wrangler@beta
+4-) yarn wrangler init worker_one
+5-) Run dev server: npx wrangler dev
+6-) Publish online: npx wrangler publish
